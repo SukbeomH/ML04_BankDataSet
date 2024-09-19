@@ -1,6 +1,6 @@
 ## ML04_BankDataSet
 
-ML04_BankDataSet Machine Learning
+BankDataSet **Machine_Learning**
 
 ## How to fork the repository
 
@@ -16,14 +16,39 @@ ML04_BankDataSet Machine Learning
 9. `git pull upstream main` 으로 원본 레포지토리의 내용을 가져온다
 10. ??? 작업 한?다???
 
+### Git Rules
+
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+
+`git pull upstream` 하시면 변경된 README.md가 보이실 것입니다..
+→ 수정하면 충돌이 일어나니 README파일은 수정할때 말하기
+
+- 작업은 각자 `깃허브아이디` 명의 폴더를 만들고 그 안에서 합니다
+  - 중간중간 각자 깃허브에 PUSH
+  - `git add .`
+  - `git commit -m <message>`
+  - `git push origin`
+- 메인 레포 (Upstream) 에 반영하고 싶다면 깃허브 웹페이지에 접속
+  - Pull Request를 신청합니다
+
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+
+> `.ipynb` 파일은 동시 편집을 할 수 없기 때문에,
+> 각자가 작업하는 폴더를 분리해서 작업합니다.
+
+- 최종 `merge`는 작업 완료 후 진행합니다.
+
 # 은행 데이터셋을 활용한 머신러닝
 
 ## Members
 
-@euneun9
-@Coke-Eating-Polarbear
-@gaeun19
-@SukbeomH
+[@euneun9](https://github.com/euneun9)
+
+[@Coke-Eating-Polarbear](https://github.com/Coke-Eating-Polarbear)
+
+[@gaeun19](https://github.com/gaeun19)
+
+[@SukbeomH](https://github.com/SukbeomH)
 
 ## 데이터셋
 
