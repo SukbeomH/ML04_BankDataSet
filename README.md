@@ -66,16 +66,29 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 
 ### 목표
 
-### 전처리 과정
+### 전처리
+
+- CSV 파일을 불러와서 데이터프레임으로 변환
+- 각 데이터 타입을 변경
 
 ### EDA
 
-### Feature Engineering
+- 데이터셋의 전반적인 정보 확인
 
 ### 모델링
 
+- 모델 선택
+- 학습
+- 예측
+
 ### 평가
 
+- 모델 평가
+- 결과 분석
+- 개선 방안
+
 ### 결과
+
+- 결과 요약
 
 ## Reference
