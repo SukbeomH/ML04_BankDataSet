@@ -21,6 +21,7 @@ BankDataSet **Machine_Learning**
 🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
 
 `git pull upstream` 하시면 변경된 README.md가 보이실 것입니다..
+
 → 수정하면 충돌이 일어나니 README파일은 수정할때 말하기
 
 - 작업은 각자 `깃허브아이디` 명의 폴더를 만들고 그 안에서 합니다
