@@ -63,3 +63,19 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 - [Bank Marketing Data Set](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
 
 ## Overview
+
+### 목표
+
+### 전처리 과정
+
+### EDA
+
+### Feature Engineering
+
+### 모델링
+
+### 평가
+
+### 결과
+
+## Reference
