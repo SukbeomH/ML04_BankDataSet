@@ -117,8 +117,8 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
   - **Emsamble**
   - **Stacking**
 - 변수 선택:
-  - Random Forest + Feature Importance
-  - PCA + Random Forest
+  - **Random Forest + Feature Importance**
+  - **PCA + Random Forest**
 
 ![XAI](./image/xai.png)
 
@@ -128,7 +128,7 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
   - 랜덤 포레스트를 돌리는 함수를 제작.
   - AUC를 계산을 하고
 
-- 총 **50번의 objective를 수행**을 하고 그중에서 가장 높은 AUC값을 가지는 파라미터 값을 가지게 하였습니다.
+- 총 **50번의 objective를 수행**을 하고 그중에서 가장 높은 AUC값을 가지는 파라미터 값을 가지게 함.
 
 ### 평가
 
@@ -150,8 +150,10 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 
 ## 개선 방안
 
-- SHAP 활용
+- **SHAP** 활용하여 필요없는 인덱스를 제거하는 것.
+-
 
 ## Trouble Shooting
 
-- 초기에 Duration이 Deposit에 영향을 미치는 것으로 판단하여 제거하지 않았다.
+- 초기에 **Duration**이 Deposit에 영향을 미치는 것으로 판단하여 제거하지 않았다.
+- **Git** 사용이 서툴러서 공동작업에서 **Conflict**가 있었다.
