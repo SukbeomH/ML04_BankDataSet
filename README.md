@@ -150,3 +150,7 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 
 - 개선 방안
   - SHAP 활용
+
+## Trouble Shooting
+
+- 초기에 Duration이 Deposit에 영향을 미치는 것으로 판단하여 제거하지 않았다.
