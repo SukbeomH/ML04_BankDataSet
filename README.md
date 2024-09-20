@@ -177,3 +177,4 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 - 초기에 **Duration**이 Deposit에 영향을 미치는 것으로 판단하여 제거하지 않았다.
 - **Git** 사용이 서툴러서 공동작업에서 **Conflict**가 있었다.
 - **Feature Importance**를 적용하니 더 떨어졌다;
+- **Random seed** 고정 안함...
