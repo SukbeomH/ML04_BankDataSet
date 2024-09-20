@@ -1,5 +1,7 @@
 ## ML04_BankDataSet
 
+![odungs](./image/odungs.webp)
+
 BankDataSet **Machine_Learning**
 
 ## How to fork the repository
