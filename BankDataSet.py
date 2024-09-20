@@ -14,7 +14,9 @@ data = pd.read_csv(file_path)
 # Encode the categorical variables
 label_encoders = {}
 categorical_columns = ['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'poutcome', 'deposit']
-
+#age,job,marital,education,default,balance,housing,loan,contact,day,month,duration,
+#campaign,pdays,previous,poutcome,deposit 중에서
+# job, marital, education, default, housing, loan, contact,  month, poutcome 을빼고
 for col in categorical_columns:
     le = LabelEncoder()
     data[col] = le.fit_transform(data[col])
