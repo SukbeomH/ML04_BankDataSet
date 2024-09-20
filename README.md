@@ -94,7 +94,7 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 
 ## 데이터셋 출처
 
-- [Bank Marketing Data Set(https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+- [Bank Marketing Data Set (https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
 
 ## Overview
 
