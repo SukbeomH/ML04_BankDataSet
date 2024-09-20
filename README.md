@@ -92,29 +92,63 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 
 ### 목표
 
+- 은행 데이터셋을 활용해 가장 **Deposit Data**를 잘 예측하는 모델을 선정한다.
+- 평가지표는 **AUC**로 한다.
+
 ### 전처리
 
 - CSV 파일을 불러와서 데이터프레임으로 변환
-- 각 데이터 타입을 변경
+- **수치형 데이터** 가공
+- **로그** 변환
+- **아웃라이어** 처리
+- **MinMaxScaler**로 정규화
+- 범주형 데이터 **라벨링**
 
 ### EDA
 
 - 데이터셋의 전반적인 정보 확인
+- **플롯** 확인
+- **Describe** 확인
 
 ### 모델링
 
-- 모델 선택
-- 학습
-- 예측
+- 모델 선택: (파라미터 조정은 **Grid Search**로 진행)
+  - **Random Forest**
+  - **Emsamble**
+  - **Stacking**
+- 변수 선택:
+  - Random Forest + Feature Importance
+  - PCA + Random Forest
+
+![XAI](./image/xai.png)
+
+- **Optuna**를 이용하기 위해
+
+  - n_estimators와 max_depth, 최소 샘플 분할, 최소 샘플 범위 설정을 하고
+  - 랜덤 포레스트를 돌리는 함수를 제작.
+  - AUC를 계산을 하고
+
+- 총 **50번의 objective를 수행**을 하고 그중에서 가장 높은 AUC값을 가지는 파라미터 값을 가지게 하였습니다.
 
 ### 평가
 
-- 모델 평가
+![ROC_Curve](./image/roc.png)
+
 - 결과 분석
+
+```json
+{
+	"Best parameters": {
+		"n_estimators": 152,
+		"max_depth": 28,
+		"min_samples_split": 6,
+		"min_samples_leaf": 2
+	},
+	"Test AUC": 0.8323960187732644
+}
+```
+
 - 개선 방안
-
-### 결과
-
-- 결과 요약
+  - SHAP 활용
 
 ## Reference
