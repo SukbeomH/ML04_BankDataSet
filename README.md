@@ -1,6 +1,6 @@
 ## BankDataSet **Machine_Learning**
 
-<div style="width:100%;">
+<div style="width:100%;" align="center">
 
 ![odungs](./image/odungs.webp)
 
