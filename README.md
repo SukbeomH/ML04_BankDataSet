@@ -151,7 +151,6 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 ## 개선 방안
 
 - **SHAP** 활용하여 필요없는 인덱스를 제거하는 것.
--
 
 ## Trouble Shooting
 
