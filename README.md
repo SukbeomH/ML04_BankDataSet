@@ -85,7 +85,7 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 - contact: 연락 수단
 - day: 마지막 연락일
 - month: 마지막 연락 월
-- duration: 마지막 통화 시간
+- duration: 마지막 통화 시간 ← **Drop!**
 - campaign: 이번 캠페인 연락 횟수
 - pdays: 이전 캠페인 마지막 연락 후 경과 기간
 - previous: 이번 캠페인 이전 연락 횟수
