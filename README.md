@@ -124,7 +124,19 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
   - **Random Forest + Feature Importance**
   - **PCA + Random Forest**
 
+##### 전처리를 하지 않았을 때
+
+![ROC_Curve](./image/roc.png)
+
+##### XAI를 통해 칼럼 선택 후 적용
+
 ![XAI](./image/xai.png)
+
+![XAI](./image/XAI_.png)
+
+##### Feature Importances
+
+![Feature Importance](./image/featureImportances.png)
 
 - **Optuna**를 이용하기 위해
 
@@ -135,8 +147,6 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 - 총 **50번의 objective를 수행**을 하고 그중에서 가장 높은 AUC값을 가지는 파라미터 값을 가지게 함.
 
 ### 평가
-
-![ROC_Curve](./image/roc.png)
 
 - 결과 분석
 
@@ -160,3 +170,4 @@ age,job,marital,education,default,balance,housing,loan,contact,day,month,duratio
 
 - 초기에 **Duration**이 Deposit에 영향을 미치는 것으로 판단하여 제거하지 않았다.
 - **Git** 사용이 서툴러서 공동작업에서 **Conflict**가 있었다.
+- **Feature Importance**를 적용하니 더 떨어졌다;
